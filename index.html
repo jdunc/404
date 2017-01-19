@@ -1,6 +1,6 @@
-//creative / inspiring / funny
-//surge
-//one repo
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +8,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<div class="container">
+  <h1>Oops!</h1>
+  <img src="http://i.imgur.com/KzduBxh.gif" alt="">
+  <img src="https://media.giphy.com/media/K9MPm9A3CaSkw/giphy.gif" alt="">
+  <img src="https://media.giphy.com/media/10AmJ6TIlbYxAk/giphy.gif" alt="">
+  <img src="https://media.giphy.com/media/liFaAWEOa1uKc/giphy.gif" alt="">
+  <h2>You Did It Again! You Messed With The URL,<br> We Couldn't Load That Page There!</h2>
 
+  <div>
+    <audio id="audio2">
+<source  preload="auto" src="oops.mp3" type="audio/mpeg">
+
+   <p>Your browser does not support the audio element</p>
+</audio>
+
+<script>
+  var myAudio=document.getElementById('audio2');
+  myAudio.addEventListener('loadstart', function() {
+    myAudio.currentTime = 87;
+
+    myAudio.play();
+  });
+</script>
 </body>
 </html>
